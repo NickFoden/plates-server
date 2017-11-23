@@ -2,7 +2,7 @@
   "name": "plates-server",
   "version": "1.0.0",
   "description": "Server for www.stateyourplate.co",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha"
   },
