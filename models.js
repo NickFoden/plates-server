@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const photoSchema = mongoose.Schema({ 
-         	image : {type: Array},
+         	image : {type: Array}/*,
          	imageCaption : {type: String},
-         	state : {type: String}
+         	state : {type: String}*/
      } 
 );
 

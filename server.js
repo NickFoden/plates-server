@@ -24,9 +24,9 @@ app.use(cors({
 app.post('/photos/', function(req, res/*, next*/) {
         Photo
         .create({
-            image :[req.body.uploaded],
+            image :[req.body.uploaded]/*,
             imageCaption : {type: String, default: 'crazy plate'},
-            state : {type: String, default : 'NY'}
+            state : {type: String, default : 'NY'}*/
             })
         .then((photo) => {
           Photo.find((err, photos) => {
